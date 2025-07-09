@@ -1,0 +1,26 @@
+# FastAPI Backend Requirements
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# YouTube API
+youtube-transcript-api==0.6.2
+
+# NLP Processing
+spacy==3.7.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Optional dependencies for advanced features
+requests==2.31.0
+python-dotenv==1.0.0
+Pillow==10.1.0
+
+# For 3D Avatar support (optional)
+numpy==1.24.3
+opencv-python==4.8.1.78
+
+# Testing
+pytest==7.4.3
+httpx==0.25.2
